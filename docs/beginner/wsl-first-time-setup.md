@@ -36,6 +36,73 @@ wsl --unregister Ubuntu
 
 **Warning:** This permanently deletes the Ubuntu distribution, including its files, installed software, settings, and projects stored inside it. Back up anything you need before running this command. It does not uninstall WSL itself.
 
+## Ubuntu shell commands
+
+Run these commands at the Ubuntu prompt in WSL. Ubuntu uses Bash as its default shell, so these are commonly called **shell commands** or **Linux commands**. They are not WSL management commands; WSL commands such as `wsl --list` are run from Windows.
+
+### Work with packages using `apt`
+
+For interactive command-line use, Ubuntu documents `apt` as the high-level package-management interface intended for end users. `apt-get` is also valid, but is a lower-level interface traditionally preferred in scripts for its more stable behavior. The command is spelled `apt-get` with a hyphen; `sudo apt get` is not the equivalent. See the Ubuntu [`apt` manual](https://manpages.ubuntu.com/manpages/noble/en/man8/apt.8.html) and [`apt-get` manual](https://manpages.ubuntu.com/manpages/noble/en/man8/apt-get.8.html).
+
+Refresh the package information available from configured software sources:
+
+```bash
+sudo apt update
+```
+
+Install available upgrades for packages already installed:
+
+```bash
+sudo apt upgrade
+```
+
+Install a package by name. For example, install `tree`:
+
+```bash
+sudo apt install tree
+```
+
+Remove an installed package by name. This example removes `tree`:
+
+```bash
+sudo apt remove tree
+```
+
+Read the proposed changes before confirming an install, upgrade, or removal. `remove` uninstalls the package but may leave its system configuration files; it does not remove files in your personal home directory.
+
+### Navigate and inspect files
+
+Print the current working directory:
+
+```bash
+pwd
+```
+
+List files and directories in the current directory:
+
+```bash
+ls
+```
+
+Show a detailed listing, including permissions, owner, size, and modification time:
+
+```bash
+ls -l
+```
+
+Show files beneath the current directory as a directory tree. Install `tree` first using `sudo apt install tree` if it is not already installed:
+
+```bash
+tree
+```
+
+Change to another directory. `cd ..` moves to the parent directory; `cd ~` returns to your home directory:
+
+```bash
+cd ..
+cd ~
+```
+
 ## Podman commands
 
 Run these commands from your Ubuntu WSL shell, outside the Boost container.
@@ -44,7 +111,7 @@ Run these commands from your Ubuntu WSL shell, outside the Boost container.
 
 ```bash
 sudo apt update
-sudo apt -y install podman
+sudo apt install podman
 ```
 
 ### Build the Boost image
