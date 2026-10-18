@@ -40,6 +40,8 @@ Work through the [Git basics notes](https://github.com/rwxrob/boost/blob/main/do
 
 **Checkpoint:** Show a repository with at least three meaningful commits and explain what the working tree, commit, branch, and remote each represent.
 
+For hands-on project ideas centered on Terminal, Git, GitHub, Copilot, and tmux, see [Beginner projects for Terminal, Git, GitHub, and tmux](beginner-projects-terminal-git-github-tmux.md).
+
 ### Week 5: Read and write technical material
 
 Use Markdown to document your setup and notes. Practice reading an unfamiliar project by looking at its README, directory structure, and a few files before trying to change anything. The Boost's [code and terminal reading guide](https://github.com/rwxrob/boost/blob/main/docs/beginner/read-code-and-terminal.md) is a useful companion.
