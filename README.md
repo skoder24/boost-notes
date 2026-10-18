@@ -9,6 +9,7 @@ This repository is a personal study companion, not an official part of Beginner 
 - [A 12-week beginner learning plan](docs/beginner/beginner-boost-2026-learning-plan.md) for exploring a direction, building foundations, and completing a small project.
 - [Beginner project ideas](docs/beginner/beginner-projects-terminal-git-github-tmux.md) for practicing terminal commands, Git, GitHub, and tmux.
 - [First-time WSL setup notes](docs/beginner/wsl-first-time-setup.md) for setting up Ubuntu on Windows and trying a container-based learning environment.
+- [What an `AGENTS.md` file is](docs/beginner/what-is-agents-md.md) and how repository instructions can guide AI coding agents.
 
 ## How I use this repository
 
