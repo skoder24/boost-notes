@@ -6,7 +6,7 @@ For more information about the Boost project, see [rwxrob/boost](https://github.
 
 ## WSL commands
 
-Run these commands from PowerShell or Windows Terminal, not from inside Ubuntu or the Boost container.
+Run these commands from PowerShell or Windows Terminal. Optional: WezTerm.
 
 ### Install Ubuntu in WSL
 
