@@ -32,3 +32,8 @@ This repository contains beginner-focused learning plans, project ideas, and set
 - Review Markdown links and references affected by a change.
 - Check command examples for accuracy, context, and clearly stated risks.
 - This repository currently has no configured automated test suite; report that plainly rather than implying automated checks were run.
+
+## Current content
+
+- `docs/beginner/git-and-github-command-guide.md` teaches a practical Git workflow through a sample project, including branches, commits, remotes, GitHub CLI, pull requests, and cautious undo guidance.
+- The root README and beginner project guide link to the Git and GitHub command guide.

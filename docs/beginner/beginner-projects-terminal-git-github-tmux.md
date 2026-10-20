@@ -62,6 +62,8 @@ Use this sequence whenever you make a change:
 
 As you practice, learn what the working tree, staged changes, commit, branch, and remote mean. The [Git basics quick reference](https://github.com/rwxrob/boost/blob/main/docs/beginner/git-basics-notes.md) is a companion.
 
+For a hands-on walkthrough of everyday commands, see the [Git and GitHub command guide](git-and-github-command-guide.md).
+
 ## Suggested progression
 
 Start with the command field guide, add the tmux workspace as its first substantial section, then grow the repository into the capstone. Add the research notebook and portfolio when they support your interests. A small, finished project that you can explain is more valuable than trying to learn every command or tool at once.
