@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository contains beginner-focused learning plans, project ideas, and setup guides related to technical careers and foundational tools. Keep the material practical, approachable, and clear about which steps are optional.
+This repository contains beginner-focused learning plans, project ideas, and setup guides related to technical careers and foundational tools. Keep the material practical, approachable, and clear about which steps are optional. Learning notes are grouped under `docs/ai-generated/` or `docs/human-authored/` based on how their initial drafts and main substance were produced.
 
 ## Content and attribution
 
@@ -35,5 +35,6 @@ This repository contains beginner-focused learning plans, project ideas, and set
 
 ## Current content
 
-- `docs/beginner/git-and-github-command-guide.md` teaches a practical Git workflow through a sample project, including branches, commits, remotes, GitHub CLI, pull requests, and cautious undo guidance.
-- The root README and beginner project guide link to the Git and GitHub command guide.
+- `docs/ai-generated/` contains the existing learning notes, including a practical Git and GitHub command guide.
+- `docs/README.md` and `docs/ai-generated/README.md` explain the authoring categories and link to the available notes.
+- The root README links readers to the documentation overview and AI-generated notes; `docs/human-authored/` is reserved for future notes.

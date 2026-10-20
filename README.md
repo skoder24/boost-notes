@@ -2,15 +2,14 @@
 
 This is my learning space for getting comfortable with the tools and habits behind technical work. I use it to take notes, try small projects, and practice using the terminal, Git, and GitHub while I work through the beginner material in [Beginner Boost by Rob Muhlestein (rwxrob)](https://github.com/rwxrob/boost/tree/main/docs/beginner).
 
-This repository is a personal study companion, not an official part of Beginner Boost. Some pages are my own notes or adaptations, and they link back to their sources where relevant.
+This repository is a personal study companion, not an official part of Beginner Boost. The learning notes are organized by how they were authored: AI-generated notes were drafted primarily with generative AI, while human-authored notes are primarily written by a person. These labels describe the drafting process, not the quality of a note; source links and attribution are included where relevant.
 
 ## What you'll find here
 
-- [A 12-week beginner learning plan](docs/beginner/beginner-boost-2026-learning-plan.md) for exploring a direction, building foundations, and completing a small project.
-- [Beginner project ideas](docs/beginner/beginner-projects-terminal-git-github-tmux.md) for practicing terminal commands, Git, GitHub, and tmux.
-- [Git and GitHub command guide](docs/beginner/git-and-github-command-guide.md) with explanations and an example project for practicing everyday commands.
-- [First-time WSL setup notes](docs/beginner/wsl-first-time-setup.md) for setting up Ubuntu on Windows and trying a container-based learning environment.
-- [What an `AGENTS.md` file is](docs/beginner/what-is-agents-md.md) and how repository instructions can guide AI coding agents.
+- [Documentation overview](docs/README.md) explains the categories and links to all notes.
+- [AI-generated notes](docs/ai-generated/README.md) contain the existing beginner learning notes.
+
+`README.md` and `AGENTS.md` remain at the repository root as project and contributor guidance; they are not categorized as learning notes.
 
 ## How I use this repository
 
